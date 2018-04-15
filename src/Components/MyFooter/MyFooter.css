@@ -1,0 +1,50 @@
+
+footer{
+  position: absolute;
+  right: 0;
+  bottom: 35px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+ li:last-child a{
+  border: none;
+}
+footer li {
+    float: left;
+    list-style: none;
+
+}
+footer ul{
+    text-align: center;
+    float: center;
+}
+footer div{
+    text-align: center;
+}
+footer li a{
+
+    font-style: normal;
+    text-decoration: none!important;
+    font-family: lineto-circular-book;
+    color: #bbb;
+    font-size: 10px;
+    outline: 0;
+    border-right: 1px solid #ddd;
+    padding-left: 3px;
+    padding-right: 7px;
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+  footer li{
+    width: 100%;
+  }
+  footer li a {
+    border:none;
+  }
+  footer{
+    bottom: 0;
+    position: relative;
+  }
+}

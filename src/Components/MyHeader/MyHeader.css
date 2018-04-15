@@ -1,0 +1,39 @@
+
+.navbar-brand{
+  height: 50px;
+  background-color:#53535b;
+
+}
+.logo{
+display: flex;
+opacity: 4;
+justify-content: center;
+
+}
+.logo img{
+  width: 84px;
+  height: 37px;
+  margin-top: 5px;
+}
+.navbar-brand span{
+  cursor:pointer;
+  text-align: center;
+  opacity:2;
+  display: table-cell;
+}
+.info-logo img{
+  height: 20px;
+  width: 20px;
+  background-color: #ddddde;
+  border-radius: 15px;
+}
+.info-logo{
+  vertical-align: middle;
+  float: right;margin-top: -30px;
+  margin-right: 50px;
+  padding-left: 20px;
+  border-left: 1px solid #ddddde;
+  margin-top: -27px;
+  margin-right: 50px;
+  height: 20px;
+}

@@ -1,0 +1,30 @@
+ul li {
+    list-style-type:none;
+}
+input ,textarea, select{
+    margin-top: 7px;
+    width: 40%;
+    height: 37px;
+    font-size: 20px;
+}
+textarea{
+    height: 70px;    
+}
+ul li:last-child input{
+        background: #4cae4c;
+        color: white;
+        width: 40%;
+        border:none;
+        height: 36px;
+}
+.circl{
+width:100px;
+}
+@media screen and (max-width: 600px) {
+    input ,textarea, select{
+        width: 95%;
+    }        
+    div,input ,textarea, select{
+        margin: 2%;
+    }
+}    

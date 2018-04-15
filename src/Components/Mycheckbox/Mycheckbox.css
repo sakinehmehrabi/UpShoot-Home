@@ -1,0 +1,11 @@
+.terms-checkbox{
+  margin-top: 10px;
+  text-align: center;
+  font-size:10px;
+}
+.terms-checkbox input{
+  margin-top: 0;
+}
+.label-for-terms{
+    vertical-align: top;
+}
