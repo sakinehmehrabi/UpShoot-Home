@@ -4,8 +4,10 @@ class Mycheckbox extends Component {
   render() {
         return (
           <div className="terms-checkbox">
-            <input type="checkbox" id="terms"/>
-            <lable for="terms" className="label-for-terms">I have read Terms & conditions.</lable>
+              <div className="input-wrapper">
+                <input type="checkbox" id="terms"/>
+                <span className="label-for-terms">I have read Terms & conditions.</span>
+              </div>
           </div>
         );
       }
